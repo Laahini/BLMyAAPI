@@ -1,0 +1,373 @@
+<!doctype HTML>
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="blmyaapi.css">
+  <link rel="icon" href="tsa.ico">
+  <title> BLM </title>
+</head>
+
+<body>
+  <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <a href="BLMyAAPI.html"><img src="BLMyAAPI.png" defer width="118"/></a>
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ol>
+            <li><a href="BLMyAAPI.html" style="font-size:20px;">Home</a></li>
+            <li><a href="BLM.html" style="font-size:20px;">BLM</a></li>
+            <li><a href="AAPI.html" style="font-size:20px;">AAPI</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+  <section id="intro" style="margin-top:auto;">
+    <div class="block">
+  			<div style="text-align: center;" class="intro">
+  				<h1> ✊🏾✊🏽✊🏼✊  BLM  ✊✊🏼✊🏽✊🏾</h1>
+  				<h2 style="margin-top: 50px; margin-bottom: 3%"> Black Lives Matter</h2>
+  			</div>
+  	</div>
+  </section>
+
+  <section style="padding:5%; margin-top:4%; background-color:#d9e85b;">
+    <div id="grid">
+      <div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="blm1.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="blm2.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="blm3.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="blm4.jpeg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="blm5.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="blm6.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="blm7.jpeg" style="width:600px; height:400px;">
+          </div>
+
+        <a class="prev" onclick="plus(-1)">&#10094;</a>
+        <a class="next" onclick="plus(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="current(1)"></span>
+        <span class="dot" onclick="current(2)"></span>
+        <span class="dot" onclick="current(3)"></span>
+        <span class="dot" onclick="current(4)"></span>
+        <span class="dot" onclick="current(5)"></span>
+        <span class="dot" onclick="current(6)"></span>
+        <span class="dot" onclick="current(7)"></span>
+      </div>
+      </div>
+      <div style="width:500px;">
+        <p id="stnd" style="line-height:27px;">In 2020 and 2021, there has been a sudden increase of recognition of the problems
+        Black Americans face and have fought. Black Americans are subject to discrimination in the legal, police, education and other systems.
+        In the past few years, there has been a sudden increase in hate crimes, discrimniation and inequalities towards Black Americans. Black Americans
+        of all ages fear police harassment and discrimination solely because of their skin color.</p>
+      </div>
+    </div>
+    </section>
+  <script>
+    var index = 1;
+    show(index);
+    function plus(n) {
+      show(index += n);
+    }
+    function current(n) {
+      show(index = n);
+    }
+    function show(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var circles = document.getElementsByClassName("dot");
+      if (n > slides.length) {index = 1}
+      if (n < 1) {index = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < circles.length; i++) {
+        circles[i].className = circles[i].className.replace(" active", "");
+      }
+      slides[index-1].style.display = "block";
+      circles[index-1].className += " active";
+    }
+  </script>
+
+  <section id="our-chapter-pics">
+    <div class="moving" style="margin-bottom:2px; margin-top:4%; margin-left:61%">
+      <span>E</span>
+      <span>D</span>
+      <span>U</span>
+      <span>C</span>
+      <span>A</span>
+      <span>T</span>
+      <span>E</span>
+    </div>
+    <div id="grid2" style="margin-top:4%; background-color:#d9e85b;">
+      <div style="text-align:right; padding-top:5%;">
+        <h3 style="text-align:center; font-size:25px;">Social Media</h3>
+        <h4>Black Lives Matter: <a id="medialink" href="https://www.instagram.com/blklivesmatter/?hl=en">@blklivesmatter</a></h4>
+        <h4>Ethel’s Club: <a id="medialink" href="https://www.instagram.com/ethelsclub/?utm_source=ig_embed">@ethelsclub</a></h4>
+        <h4>Equality  Labs: <a id="medialink" href="https://www.instagram.com/equalitylabs/?utm_source=ig_embed">@equalitylabs</a></h4>
+        <h4>Your Rights Camp: <a id="medialink" href="https://www.instagram.com/yourrightscamp/?utm_source=ig_embed">@yourrightscamp</a></h4>
+        <h4>Good Good Good Co: <a id="medialink" href="https://www.instagram.com/goodgoodgoodco/?utm_source=ig_embed">@goodgoodgoodco</a></h4>
+        <h4>Check Your Privilege: <a id="medialink" href="https://www.instagram.com/ckyourprivilege/?utm_source=ig_embed">@ckyourprivilege</a></h4>
+        <h4>The Conscious Kid: <a id="medialink" href="https://www.instagram.com/theconsciouskid/?utm_source=ig_embed">@theconsciouskid</a></h4>
+        <h4>Color of Change: <a id="medialink" href="https://www.instagram.com/colorofchange/?utm_source=ig_embed">@colorofchange</a></h4>
+        <h4>NAACP: <a id="medialink" href="https://www.instagram.com/naacp/?utm_source=ig_embed">@naacp</a></h4>
+        <h4>So You Want To Talk About: <a id="medialink" href="https://www.instagram.com/soyouwanttotalkabout/?utm_source=ig_embed">@soyouwanttotalkabout</a></h4>
+        <h4>Global Girl Hood: <a id="medialink" href="https://www.instagram.com/globalgirlhood/">@globalgirlhood</a></h4>
+        <h4>Survived and Punished: <a id="medialink" href="https://twitter.com/survivepunish">@survivepunish</a></h4>
+      </div>
+      <div style="text-align:right; padding-top:5%;">
+        <h3 style="text-align:center; font-size:25px;">Resources</h3>
+        <h4><a href="https://www.facinghistory.org/">Facing History and Ourselves</a></h4>
+        <h4><a href="https://www.teachandtransform.org/reading-list">Social Justice Reading Lists for Adults and Children</a></h4>
+        <h4><a href="https://www.tolerance.org/">Teaching Tolerance</a></h4>
+        <h4><a href="https://www.goodgoodgood.co/anti-racism-resources">Anti Racism Resources</a></h4>
+        <h4><a href="https://www.victorialynnalexander.com/antiracistresourceguide">Anti-Racist Resource Guide</a></h4>
+        <h4><a href="https://www.nytimes.com/2015/12/06/magazine/white-debt.html">White Debt</a></h4>
+        <h4><a href="https://www.google.com/url?q=https://www.teenvogue.com/story/beyond-the-hashtag-how-to-take-anti-racist-action&sa=D&source=editors&ust=1617577305690000&usg=AOvVaw0iA_wA_tn7x0lBmVdw_42V">Beyond the Hashtag: How to Take Anti-Racist Action in Your Life</a></h4>
+        <h4><a href="https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/">The Case for Reparations</a></h4>
+        <h4><a href="https://www.npr.org/2020/05/29/865261916/a-decade-of-watching-black-people-die">A Decade Of Watching Black People Die</a></h4>
+        <h4><a href="https://www.wnycstudios.org/podcasts/otm/episodes/on-the-media-2020-06-05">No Justice, No Peace</a></h4>
+        <h4><a href="https://revealnews.org/podcast/reproducing-racism/">Reproducing Racism</a></h4>
+        <h4><a href="https://www.youtube.com/watch?v=XWQfDbbQv9E">Jim Crow of the North - Full-Length Documentary</a></h4>
+        <h4><a href="https://www.cnn.com/2021/01/07/us/police-response-black-lives-matter-protest-us-capitol/index.html">Capital Riots vs BLM</a></h4>
+        <h4><a href="https://www.npr.org/2021/01/09/955221274/now-the-world-gets-to-see-the-difference-blm-protesters-on-the-capitol-attack">'Now The World Gets To See The Difference'</a></h4>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="moving" style="margin-bottom:2px; margin-top:4%; margin-left:61%">
+      <span>D</span>
+      <span>O</span>
+      <span>N</span>
+      <span>A</span>
+      <span>T</span>
+      <span>E</span>
+    </div>
+    <div id="grid3" style="margin-top:4%; background-color:#d9e85b; padding:10px;">
+      <div>
+        <h4><u>For The Community</u></h4>
+        <h4><a href="https://www.northstarhealthcollective.org/donate">Northstar Health Collective</a></h4>
+        <h4><a href="https://idabwellssociety.org/donate/">Ida B. Wells Society</a></h4>
+        <h4><a href="https://www.instagram.com/p/CA8GE-HDbxa/?igshid=1w4ujd8o0ewvg">Black Trans Protesters Emergency Fund</a></h4>
+        <h4><a href="https://www.gofundme.com/f/SWCFund">Mutual Aid Fund for Sex Workers of Color</a></h4>
+        <h4><a href="https://www.gofundme.com/f/homeless-black-trans-women-fund">Homeless Black Trans Women Fund</a></h4>
+        <h4><a href="https://www.paypal.me/theokraproject">The Okra Project</a></h4>
+      </div>
+      <div>
+        <h4><u>Organizations</u></h4>
+        <h4><a href="https://secure.everyaction.com/4omQDAR0oUiUagTu0EG-Ig2">Black Visions Collective</a></h4>
+        <h4><a href="https://secure.everyaction.com/zae4prEeKESHBy0MKXTIcQ2">Reclaim the Block</a></h4>
+        <h4><a href="https://ctul.ourpowerbase.net/civicrm/contribute/transact?reset=1&id=1">CTUL</a></h4>
+        <h4><a href="https://unicornriot.ninja/donate/">Unicorn Riot</a></h4>
+        <h4><a href="http://www.mplsnaacp.org/donate">NAACP Minneapolis</a></h4>
+        <h4><a href="https://secure.eifoundation.org/site/Donation2;jsessionid=00000000.app30119a?df_id=6082&mfc_pref=T&6082.donation=form1&s_src=kyrcmain&utm_source=kyrcmain&NONCE_TOKEN=A3C837FBD0AC54DAA75D36F78DBECFD1">Know Your Rights Camp</a></h4>
+        <h4><a href="https://www.blacklivesmatterchicago.com/donate/">Black Lives Matter Chicago</a></h4>
+        <h4><a href="https://www.umedics.org/donate/">Ujimaa Medics</a></h4>
+        <h4><a href="https://secure.actblue.com/donate/byp100-1">BYP100</a></h4>
+      </div>
+      <div>
+        <h4><u>Bails</u></h4>
+        <h4><a href="https://minnesotafreedomfund.org/donate">Minnesota Freedom Fund</a></h4>
+        <h4><a href="https://actionnetwork.org/fundraising/louisville-community-bail-fund/">Louisville Community Bail Fund</a></h4>
+        <h4><a href="https://secure.actblue.com/donate/freeblackmamas2020">National Bail Out Fund - Free Black Mamas</a></h4>
+        <h4><a href="https://donorbox.org/ncbf">Northwest Community Bail Fund</a></h4>
+        <h4><a href="https://secure.givelively.org/donate/the-bail-project">The Bail Project</a></h4>
+        <h4><a href="http://blacklivesseattle.org/bail-fund/">Black Lives Matter Seattle-King County Freedom Fund</a></h4>
+        <h4><a href="https://rally.org/ARCbailfund?fbclid=IwAR1y2SeKQu49V7eq1YqpFqJFf9yRforxGa8W_nTPPg66unY97N1XmpsJYNM">Bay Area Anti- Repression Committee Bail Fund</a></h4>
+        <h4><a href="https://secure.actblue.com/donate/emergency-relief-fund-1">Emergency Release Fund</a></h4>
+        <h4><a href="https://www.gofundme.com/f/fangbailfund">FANG Community Bail Fund</a></h4>
+        <h4><a href="https://secure.actblue.com/donate/blackandpinkbail">Black and Pink National Bail Fund</a></h4>
+      </div>
+      <div>
+        <h4><u>GoFundMe/ETC</u></h4>
+        <h4><a href="https://www.gofundme.com/f/i-run-with-maud">I run with Maud</a></h4>
+        <h4><a href="https://www.gofundme.com/f/georgefloyd">George Floyd Memorial Fund</a></h4>
+        <h4><a href="https://www.gofundme.com/f/gianna-floyd-daughter-of-george-floyd-fund">Gianna Floyd Fund</a></h4>
+        <h4><a href="https://www.gofundme.com/f/in-memory-of-tony-mcdade">In Memory of Tony McDade</a></h4>
+        <h4><a href="https://www.gofundme.com/f/justicefordavidmcatee">Justice for David McAtee</a></h4>
+        <h4><a href="https://www.gofundme.com/f/for-james-scurlocks-family">For James Scurlock's Family</a></h4>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>ADVOCATION & ACTIVISM</h1>
+    <div id="grid4" style="margin-top:4%; background-color:#d9e85b; padding-top:5%; padding-bottom:5%; font-size:18px;">
+      <div>
+        <h3>What to DO</h3>
+        <p>Listen to REAL black voices and their perspectives</p>
+        <p>Have empathy to those Black Voices</p>
+        <p>Spread legit social media posts and resources</p>
+        <p>Get Educated and Educate others about the system and inequality</p>
+        <p>Get in contact with Reps to demand equality and justice</p>
+      </div>
+      <div>
+        <h3>What NOT to DO</h3>
+        <p>Assume the lives of the Black Community</p>
+        <p>Appropriate Black Culture or ANY culture</p>
+        <p>Performative Activism - "everyone's doing it"</p>
+        <p>Harass/assault someone during protests</p>
+        <p>Spread false information or untrustful sources</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>NO MONEY, NO PROB</h1>
+    <div id="grid3" style="margin-top:4%; background-image: url('blmcollage.png'); padding-top:5%; padding-bottom:5%; font-size:18px;">
+      <div>
+        <h3>Sign Petitions</h3>
+        <p><a href="https://act.colorofchange.org/sign/justiceforfloyd_george_floyd_minneapolis?source=coc_main_website">George Floyd</a></p>
+        <p><a href="https://www.change.org/p/jackie-johnson-demand-d-a-jackie-johnson-resign-for-failing-to-arrest-the-murderers-of-ahmaud-arbery?signed=true">Ahmaud Arbery</a></p>
+        <p><a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired/?sp_ref=637480045.176.206799.t.653213.2&referring_akid=42774.1513955.QyL11C&source=tw_sp">Breonna Taylor</a></p>
+        <p><a href="https://actionnetwork.org/letters/demand-justice-for-tony-mcdade?source=direct_link&">Tony McDade</a></p>
+        <p><a href="https://www.change.org/p/demand-justice-for-james-scurlock-killed-by-omaha-racist-during-george-floyd-protest">James Scurlock</a></p>
+      </div>
+      <div>
+        <h3>Watch These</h3>
+        <p><a href="https://www.youtube.com/watch?v=DAZgTNBLSLA">Studio Jibby</a></p>
+        <p><a href="https://www.youtube.com/watch?v=hWgivNzHj1U">SISTA AKOS</a></p>
+        <p><a href="https://www.youtube.com/watch?v=owJovroHuj8">Izzy Kornblau</a></p>
+        <p><a href="https://www.youtube.com/watch?v=k1qXHvAJIbA">Greta Onieogou</a></p>
+        <p><a href="https://www.youtube.com/watch?v=Dg3aaZaiTkU">Jordan Matter</a></p>
+      </div>
+      <div>
+        <h3>Text</h3>
+        <img src="textposter.png" style="height:200px;">
+    </div>
+    <div>
+      <h3>Reach Out</h3>
+      <p><a href="https://www.washingtonpost.com/technology/2020/06/12/tiktok-tinder-twitter-bts-black-lives-matter/">Read How</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h1 style="margin-top:0%;">HOW PRIVILEGED ARE YOU</h1>
+    <div style="margin-top:4%; background-color:#d9e85b; padding:20px;">
+      <form>
+        <div id="grid"  style="padding-left:5%; padding-right:5%;">
+          <div style="padding-left:10px; padding-right:20px; font-size:16px;">
+            <p>If I wish to, I can arrange to be in the company of people of my race most of the time.</p>
+
+            <p>I can be sure that no matter where I move to, my neighbours in that location will be pleasant or neutral to me.</p>
+
+            <p>I can go shopping alone and be sure that I won’t be followed or harassed.</p>
+
+            <p>I can turn on the television, open a newspaper and see people of my race widely represented.</p>
+
+            <p>I can go to a museum or art gallery and will see people of my race widely represented in the objects and artworks.</p>
+
+            <p>I can be sure that when told about our national heritage or about ‘civilisation’, I am shown that people of my colour made it what it is.</p>
+
+            <p>I can be sure that my children will be taught a curriculum which testifies to the existence of their race.</p>
+
+            <p>I can go into a shop and easily find the food, music or clothes which represent my race or fit with my cultural traditions.</p>
+
+            <p>I can go to a hairdresser and be sure that they can cut my hair.</p>
+
+            <p>I can count on my skin colour not to work against the appearance of my financial reliability.</p>
+
+            <p>I can swear, dress scruffily or not answer letters without having people attribute these choices to the bad morals, poverty or illiteracy of my race.</p>
+
+            <p>I can speak in public to a powerful male group without putting my race on trial.</p>
+
+            <p>I can do well professionally without being called a credit to my race.</p>
+          </div>
+          <div style="padding-left:20px; padding-right:10px; font-size:16px;">
+            <p>I am never asked to speak for my entire racial group.</p>
+
+            <p>I can remain oblivious of the language and customs of persons of colour without feeling in my own culture any penalty for such oblivion.</p>
+
+            <p>I can criticize our government and talk about how much I fear its policies and behaviour without being seen as a cultural outsider.</p>
+
+            <p>If a police officer stops me I can be sure I haven’t been singled out because of my race.</p>
+
+            <p> I can be pretty sure that if I ask to talk to “the person in charge,” I will be facing a person of my race.</p>
+
+            <p>I can easily buy books, children’s toys, posters, greetings cards or magazines featuring people of my race.</p>
+
+            <p>As a child I had access to books where the heroes and protagonists were the same race or colour as me.</p>
+
+            <p>I can go home from most meetings of organizations I belong to feeling somewhat tied in, rather than isolated, out-of-place, outnumbered, unheard, held at a distance, or feared.</p>
+
+            <p>I can take a job with an affirmative action employer without having co-workers suspect that I got it because of race.</p>
+
+            <p>I can be sure that the gatekeepers in my life such as my boss, my local MP or my landlord are the same colour or race as me.</p>
+
+            <p>I can be sure that if I need legal or medical help, the colour of my skin will not work against me.</p>
+
+            <p>I can choose make up or bandages in flesh colour and have them more or less match my skin.</p>
+
+            <p>At school and university I could be sure that most of my teachers were the same colour or race as me.</p>
+          </div>
+        </div>
+      </form>
+      <div style="text-align:center;">
+        <h4>If your score is more than 13, have you considered that YOU have privileges that others do NOT?</h4>
+      </div>
+      <p>Credits to monitoracism.edu</p>
+    </div>
+  </section>
+
+  <section>
+    <h1>TAKEAWAYS FROM THE MOVEMENT, PROTESTS, ETC</h1>
+    <div style="margin-top:4%; background-color:#d9e85b; padding-top:5%; padding-bottom:5%; font-size:18px;">
+      <div id="grid2">
+        <div>
+          <img src="blmblm.jpg" style=" margin-bottom:2%; width:400px; height: 300px; border-radius:20px;">
+        </div>
+        <div style=" background-color:#F5F2DC; border-radius:20px; padding:10px; height:300px; width:725px;">
+          <p style=" font-size:19px; line-height:27px;">
+            There are some key takeaways for people of all ages from this rise in activism for black lives and standing for
+            equality.
+          </p>
+          <ul style="padding-right:10px;">
+            <li>Self-reflection and education is always encouraged.</li><br>
+            <li>The public has power to some extent but when we protest for a cause, things will happen and we will achieve them.</li><br>
+            <li>No one is ever alone; there will always be people willing to support you.</li><br>
+            <li>Racism is never okay and your experiences matter; your role is to report such events.</li><br>
+            <li>Recognize your privilege and aim to seek the same for those around you who do not have such privilege.</li><br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<footer>
+  <p>BLMyAAPI</p>
+  <p>copyright © 2020</p>
+</footer>
+</html>

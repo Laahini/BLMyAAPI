@@ -1,0 +1,312 @@
+<!doctype HTML>
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="blmyaapi.css">
+  <link rel="icon" href="tsa.ico">
+  <title> AAPI </title>
+</head>
+
+<body>
+  <div class="navbar">
+      <div style="flex-grow: 1">
+        <a href="index.html">
+          <div class="logobutton">
+            <a href="BLMyAAPI.html"><img src="BLMyAAPI.png" defer width="118"/></a>
+          </div>
+        </a>
+      </div>
+      <div class="nav">
+        <nav>
+          <ol>
+            <li><a href="BLMyAAPI.html" style="font-size:20px;">Home</a></li>
+            <li><a href="BLM.html" style="font-size:20px;">BLM</a></li>
+            <li><a href="AAPI.html" style="font-size:20px;">AAPI</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+  <section id="intro" style="margin-top:auto;">
+    <div class="block">
+  			<div style="text-align: center;" class="intro">
+  				<h1>✊🏾✊🏽✊🏼✊  AAPI  ✊✊🏼✊🏽✊🏾</h1>
+  				<h2 style="margin-top: 50px; margin-bottom: 3%"> Stop Asian Americans and Pacific Islanders Hate </h2>
+  			</div>
+  	</div>
+  </section>
+
+  <section style="padding:5%; margin-top:4%; background-color:#d9e85b;">
+    <div id="grid">
+      <div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="blm1.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="blm2.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="blm3.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="blm4.jpeg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="aapi1.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="aapi2.jpg" style="width:600px; height:400px;">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="aapi3.jpg" style="width:600px; height:400px;">
+          </div>
+
+        <a class="prev" onclick="plus(-1)">&#10094;</a>
+        <a class="next" onclick="plus(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="current(1)"></span>
+        <span class="dot" onclick="current(2)"></span>
+        <span class="dot" onclick="current(3)"></span>
+        <span class="dot" onclick="current(4)"></span>
+        <span class="dot" onclick="current(5)"></span>
+        <span class="dot" onclick="current(6)"></span>
+        <span class="dot" onclick="current(7)"></span>
+      </div>
+      </div>
+      <div style="width:500px;">
+        <iframe height="400px;" width="500px;" frameborder=0; src="https://www.youtube.com/embed/Y_kPIFrpWC4"></iframe>
+      </div>
+    </div>
+    </section>
+  <script>
+    var index = 1;
+    show(index);
+    function plus(n) {
+      show(index += n);
+    }
+    function current(n) {
+      show(index = n);
+    }
+    function show(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var circles = document.getElementsByClassName("dot");
+      if (n > slides.length) {index = 1}
+      if (n < 1) {index = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < circles.length; i++) {
+        circles[i].className = circles[i].className.replace(" active", "");
+      }
+      slides[index-1].style.display = "block";
+      circles[index-1].className += " active";
+    }
+  </script>
+
+  <section>
+    <div class="moving" style="margin-bottom:2px; margin-top:4%; margin-left:61%">
+      <span>E</span>
+      <span>D</span>
+      <span>U</span>
+      <span>C</span>
+      <span>A</span>
+      <span>T</span>
+      <span>E</span>
+    </div>
+    <div id="grid2" style="margin-top:4%; background-color:#d9e85b;">
+      <div style="text-align:right; padding-top:5%;">
+        <h3 style="text-align:center; font-size:25px;">Social Media</h3>
+        <h4>Stop AAPI Hate: <a id="medialink" href="https://www.instagram.com/stopaapihate/?hl=en">@stopaapihate</a></h4>
+        <h4>Palette Global: <a id="medialink" href="https://www.instagram.com/palette.global/">@palette.global</a></h4>
+        <h4>Racism is a virus: <a id="medialink" href="https://www.instagram.com/racismisavirus/?hl=en">@racismisavirus</a></h4>
+        <h4>Asian Advocates: <a id="medialink" href="https://www.instagram.com/asian_advocates_/?hl=en">@asian_advocates_</a></h4>
+        <h4>The Asian American Life: <a id="medialink" href="https://www.instagram.com/thisasianamlife/?hl=en">@thisasianamlife</a></h4>
+        <h4>Dear Asian Americans: <a id="medialink" href="https://www.instagram.com/dearasianamericans/?hl=en">@dearasianamericans</a></h4>
+        <h4>AAPIs For Civic Empowerment EF: <a id="medialink" href="https://www.instagram.com/aapiforceef/?hl=en">@aapiforceef</a></h4>
+        <h4>Asian Americans Advancing Justice - Atlanta: <a id="medialink" href="https://www.instagram.com/advancingjustice_aajc/">@advancingjustice_aajc</a></h4>
+        <h4>Asian Americans Journalists Association: <a id="medialink" href="https://twitter.com/aaja">@aaja</a></h4>
+        <h4>AAPI Women Lead: <a id="medialink" href="https://twitter.com/aapiwomenlead">@AAPIWomenLead</a></h4>
+        <h4>Asian Mental Health Collective: <a id="medialink" href="https://www.instagram.com/asianmentalhealthcollective/?hl=en">@asianmentalhealthcollective</a></h4>
+        <h4>NAPAWF: <a id="medialink" href="https://www.instagram.com/napawf/">@napawf</a></h4>
+        <h4>Welcome to Chinatown NYC: <a id="medialink" href="https://www.instagram.com/welcome.to.chinatown/?hl=en">@welcome.to.chinatown</a></h4>
+        <h4>Apex for Youth: <a id="medialink" href="https://www.instagram.com/apexforyouth/?hl=en">@apexforyouth</a></h4>
+        <h4>Dear Asian Girl: <a id="medialink" href="https://www.instagram.com/dearasiangirl/?hl=en">@dearasiangirl</a></h4>
+        <h4>Dear Asian Youth: <a id="medialink" href="https://www.instagram.com/dearasianyouth/?hl=en">@dearasianyouth</a></h4>
+      </div>
+      <div style="text-align:right; padding-top:5%;">
+        <h3 style="text-align:center; font-size:25px;">Resources</h3>
+        <h4><a href="https://www.pbs.org/show/asian-americans/">Asian Americans PBS docuseries</a></h4>
+        <h4><a href="https://www.youtube.com/playlist?list=PLuH1M1754dgDjrdZJytzLw-GAJL2HYC0c">"Asian American Stories in the Time of Coronavirus" YouTube docuseries</a></h4>
+        <h4><a href="https://www.nbcnews.com/news/asian-america/nbc-asian-america-presents-deported-n734051">Deported</a></h4>
+        <h4><a href="https://smithsonianapa.org/learn/not-a-stereotype/">We Are Not a Stereotype: Breaking Down Asian American Bias:</a></h4>
+        <h4><a href="https://www.pbs.org/newshour/nation/the-long-history-of-racism-against-asian-americans-in-the-u-s">The long history of racism against Asian Americans in the U.S.</a></h4>
+        <h4><a href="https://www.menshealth.com/health/a35874253/anti-asian-violence-eric-tang/">Asian-American Scapegoating Is, Sadly, Very American</a></h4>
+        <h4><a href="https://www.washingtonpost.com/nation/2021/02/09/attacks-asian-american-elderly-/">Covid fueled anti-Asian racism.</a></h4>
+        <h4>Yellow: Race in America Beyond Black and White</h4>
+        <h4>Minor Feelings: An Asian American Reckoning</h4>
+        <h4><a href="https://podcasts.apple.com/us/podcast/self-evident-asian-americas-stories/id1462539226">Self Evident: Asian American Stories</a></h4>
+        <h4><a href="https://podcasts.apple.com/us/podcast/asian-america-the-ken-fong-podcast/id991149400?mt=2">ASIAN AMERICA: THE KEN FONG PODCAST</a></h4>
+        <h4><a href="https://podcasts.apple.com/ca/podcast/asian-enough/id1501446978">Asian Enough</a></h4>
+        <h4><a href="https://www.nationalgeographic.com/history/article/asian-american-racism-covid">America’s long history of scapegoating its Asian citizens</a></h4>
+        <h4><a href="https://newsroom.haas.berkeley.edu/thoughts-on-the-model-minority-myths-impact-on-asian-americans/">Haas Voices: How the ‘model minority’ myth hurts Asian Americans</a></h4>
+        <h4><a href="https://www.elle.com/culture/career-politics/a35635188/anti-asian-racism-history-violence/">Ignoring The History of Anti-Asian Racism Is Another Form of Violence</a></h4>
+        <h4><a href="https://www.nbcnews.com/news/nbcblk/how-black-people-can-be-strong-allies-asian-americans-right-n1260988">How Black people can be strong allies to Asian Americans Right Now</a></h4>
+        <h4><a href="https://gen.medium.com/our-stories-are-still-filtered-through-whiteness-22a972793e4">Anti-Asian Violence Must Be a Bigger Part of America’s Racial Discourse</a></h4>
+        <h4><a href="https://t.co/pZqqzOAiQi?amp=1">The long history of anti-Asian hate in America, explained</a></h4>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="moving" style="margin-bottom:2px; margin-top:4%; margin-left:61%">
+      <span>D</span>
+      <span>O</span>
+      <span>N</span>
+      <span>A</span>
+      <span>T</span>
+      <span>E</span>
+    </div>
+    <div id="grid3" style="margin-top:4%; background-color:#d9e85b;">
+      <div style="font-size:15px;">
+        <h4><u>Funds/Support for Asian Community</u></h4>
+        <h4><a href="https://www.gofundme.com/f/aapi-crime-victims-and-education-fund/donate">AAPI Crime Victims & Education Fund</a></h4>
+        <h4><a href="https://www.napawf.org/donate">National Asian Pacific American Women's Forum</a></h4>
+        <h4><a href="https://www.gofundme.com/f/support-aapi-community-fund">AAPI Community Fund</a></h4>
+        <h4><a href="https://www.asianprisonersupport.com/">Asian Prisoner Support Committee</a></h4>
+        <h4><a href="https://www.oaklandvnchamber.com/">Oakland Vietnamese Community Center</a></h4>
+        <h4><a href="https://secure.qgiv.com/for/apfund/">Asian Pacific Fund</a></h4>
+        <h4><a href="https://www.gofundme.com/f/AAPI-journalists-therapy-relief-fund">AAPI Journalists Therapy Relief Fund</a></h4>
+      </div>
+      <div style="font-size:15px;">
+        <h4><u>Organizations</u></h4>
+        <h4><a href="https://www.givedirect.org/donate/?cid=14711">Stop AAPI Hate</a></h4>
+        <h4><a href="https://apen4ej.org/">APENEJ</a></h4>
+        <h4><a href="https://filipinocc.org/take-action">Filipino Cultural Center</a></h4>
+        <h4><a href="https://apienc.org/">APIENC: API Equality  NorCal</a></h4>
+        <h4><a href="https://cpasf.org/new-donate/">Chinese Progressive Association</a></h4>
+        <h4><a href="https://www.gofundme.com/f/stopasianhatehalloffame">Support Asian Hall of Fame: Stop Asian Hate</a></h4>
+        <h4><a href="https://www.gofundme.com/f/sf-api-victims-and-survivors-assistance-fund">Victims and Survivors Fund</a></h4>
+        <h4><a href="https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E102192&id=1">The Asian American Legal Defense and Education Fund</a></h4>
+        <h4><a href="https://charity.gofundme.com/o/en/campaign/community-action-fund">Hate Is A Virus</a></h4>
+      </div>
+      <div style="font-size:15px;">
+        <h4><u>GoFundMe/ETC</u></h4>
+        <h4><a href="https://www.gofundme.com/f/in-memory-of-hyunjungkim-to-support-my-brother-i">Hyun Jung Grant</a></h4>
+        <h4><a href="https://www.gofundme.com/f/in-loving-memory-of-sun-cha-kim">Suncha Kim</a></h4>
+        <h4><a href="https://www.gofundme.com/f/memorial-for-yong-yue-and-family">Yong Yue</a></h4>
+        <h4><a href="https://www.gofundme.com/f/atl-spa-shooting-family-survivor-fund-jami-webb">Xiaojie Tan</a></h4>
+        <h4><a href="https://www.gofundme.com/f/for-husband-of-soon-c-park-victim-of-spa-shooting">Song Chung Park</a></h4>
+        <h4><a href="https://www.gofundme.com/f/funeral-and-family-financial-support">Delaina Yaun</a></h4>
+        <h4><a href="https://www.gofundme.com/f/atlanta-spa-shooting-victim-paul-michels">Paul Michels</a></h4>
+        <h4><a href="https://www.gofundme.com/f/help-us-keep-and-fix-up-our-home?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet">Help A Filipino Family Keep & Fix Up Our Home</a></h4>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>WHAT IS HAPPENING?</h1>
+    <div id="grid4" style="margin-top:4%; background-color:#d9e85b;">
+      <div style="padding:3%;">
+        <iframe height="400px;" width="500px;" frameborder=0; src="https://www.youtube.com/embed/sJCactTaEfY"></iframe>
+      </div>
+      <div style="padding:5%;">
+        <h3 style="line-height:27px;">The COVID-19 Pandemic has hit the world hard in the past 2 years and many govenrment have struggled
+        to find effective solutions to handle the crisis. The Coronavirus that caused this pandemic originate from
+        China. The pandemic has affected several populations and families such as causing a loss of jobs, loss of loved ones, stress
+        and impacts on daily life along with what is known as "normal". This in turn has created some to retaliate and resort to violence and hatred
+        to Asian Americans and Pacific Islanders. These races have already faced discrimnation and prejudices like being labeled the "model minority" and
+        other racist, derogatory terms that are stereotypical. This violence has occured in different forms but include shootings of Asian Americans and other
+        cruel treatment. IN SIMPLER TERMS, the root cause is hatred to Asian Americans exemplified by the COVID-19 pandemic and its origins.</h3>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 style="margin-top:0%;">HOW PRIVILEGED ARE YOU</h1>
+    <div style="margin-top:4%; background-color:#d9e85b; padding:20px;">
+      <form>
+        <div id="grid"  style="padding-left:5%; padding-right:5%;">
+          <div style="padding-left:10px; padding-right:20px; font-size:16px;">
+            <p>If I wish to, I can arrange to be in the company of people of my race most of the time.</p>
+
+            <p>I can be sure that no matter where I move to, my neighbours in that location will be pleasant or neutral to me.</p>
+
+            <p>I can go shopping alone and be sure that I won’t be followed or harassed.</p>
+
+            <p>I can turn on the television, open a newspaper and see people of my race widely represented.</p>
+
+            <p>I can go to a museum or art gallery and will see people of my race widely represented in the objects and artworks.</p>
+
+            <p>I can be sure that when told about our national heritage or about ‘civilisation’, I am shown that people of my colour made it what it is.</p>
+
+            <p>I can be sure that my children will be taught a curriculum which testifies to the existence of their race.</p>
+
+            <p>I can go into a shop and easily find the food, music or clothes which represent my race or fit with my cultural traditions.</p>
+
+            <p>I can go to a hairdresser and be sure that they can cut my hair.</p>
+
+            <p>I can count on my skin colour not to work against the appearance of my financial reliability.</p>
+
+            <p>I can swear, dress scruffily or not answer letters without having people attribute these choices to the bad morals, poverty or illiteracy of my race.</p>
+
+            <p>I can speak in public to a powerful male group without putting my race on trial.</p>
+
+            <p>I can do well professionally without being called a credit to my race.</p>
+          </div>
+          <div style="padding-left:20px; padding-right:10px; font-size:16px;">
+            <p>I am never asked to speak for my entire racial group.</p>
+
+            <p>I can remain oblivious of the language and customs of persons of colour without feeling in my own culture any penalty for such oblivion.</p>
+
+            <p>I can criticize our government and talk about how much I fear its policies and behaviour without being seen as a cultural outsider.</p>
+
+            <p>If a police officer stops me I can be sure I haven’t been singled out because of my race.</p>
+
+            <p> I can be pretty sure that if I ask to talk to “the person in charge,” I will be facing a person of my race.</p>
+
+            <p>I can easily buy books, children’s toys, posters, greetings cards or magazines featuring people of my race.</p>
+
+            <p>As a child I had access to books where the heroes and protagonists were the same race or colour as me.</p>
+
+            <p>I can go home from most meetings of organizations I belong to feeling somewhat tied in, rather than isolated, out-of-place, outnumbered, unheard, held at a distance, or feared.</p>
+
+            <p>I can take a job with an affirmative action employer without having co-workers suspect that I got it because of race.</p>
+
+            <p>I can be sure that the gatekeepers in my life such as my boss, my local MP or my landlord are the same colour or race as me.</p>
+
+            <p>I can be sure that if I need legal or medical help, the colour of my skin will not work against me.</p>
+
+            <p>I can choose make up or bandages in flesh colour and have them more or less match my skin.</p>
+
+            <p>At school and university I could be sure that most of my teachers were the same colour or race as me.</p>
+          </div>
+        </div>
+      </form>
+      <div style="text-align:center;">
+        <h4>If your score is more than 13, have you considered that YOU have privileges that others do NOT?</h4>
+      </div>
+      <p>Credits to monitoracism.edu</p>
+    </div>
+  </section>
+
+  <br>
+</body>
+<footer>
+  <p>BLMyAAPI</p>
+  <p>copyright © 2020</p>
+</footer>
+</html>
